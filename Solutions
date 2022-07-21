@@ -1,0 +1,15 @@
+## This is the first project of Udacity Cloud Devops Nanodegree Program.
+
+Problem Statement:
+
+In this project I need to deploy a static website in AWS s3. Then it should be distributed By CloudFront. Finnaly Route53 should be used as DNS service
+The index.html and images files are provided in the project repository
+
+Solutions:
+
+First I have used CDN for the bootstrap an fontawesome. Cause these two folder will take spaces as well as the monthly bill will rise.
+
+Create and configure S3 bucket:
+
+
+
