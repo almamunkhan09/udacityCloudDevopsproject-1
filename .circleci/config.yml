@@ -1,0 +1,29 @@
+##Circleci version name
+
+version: 2.1
+
+## Jobs
+
+jobs:
+  
+  deploy to s3: 
+    docker:
+      - image: amazon/aws-cli:2.7.17
+        entrypoint: [""]
+    steps:
+      - checkout
+       # You can get this ID in the section where you registered the SSH K
+      - run:
+          name: Deploying files in s3 bucket
+          command: |
+            aws --version
+      
+      
+             
+workflows:
+  # Name the workflow "welcome"
+  Config:
+    # Run the welcome/run job in its own container
+    jobs:
+      #- create_infrastructure 
+      - configure_infrastructure
