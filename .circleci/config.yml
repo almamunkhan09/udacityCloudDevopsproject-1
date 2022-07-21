@@ -17,7 +17,7 @@ jobs:
           name: Deploying files in s3 bucket
           command: |
             aws --version
-            aws s3 sync . s3://${BUCKET_NAME} --delete
+            aws s3 rm . s3://${BUCKET_NAME} --recursive
       
       
              
