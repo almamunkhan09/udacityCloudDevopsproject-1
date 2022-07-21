@@ -16,8 +16,8 @@ jobs:
       - run:
           name: Deploying files in s3 bucket
           command: |
-            aws --version
-            aws s3 rm . s3://${BUCKET_NAME} --recursive
+            
+            aws s3 sync ./udacityproject1 s3://${BUCKET_NAME}
       
       
              
