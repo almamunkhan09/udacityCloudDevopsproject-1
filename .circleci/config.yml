@@ -22,8 +22,8 @@ jobs:
              
 workflows:
   # Name the workflow "welcome"
-  Config:
+  Deploying to s3 bucket:
     # Run the welcome/run job in its own container
     jobs:
       #- create_infrastructure 
-      - configure_infrastructure
+      - deploy to s3
