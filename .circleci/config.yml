@@ -16,11 +16,11 @@ jobs:
       - run:
           name: Deploying files in s3 bucket
           command: |
+            aws s3 rm s3://$BUCKET_NAME --recursive
             
-            aws s3 sync ./udacityproject1 s3://${BUCKET_NAME}
       
       
-             
+# aws s3 sync ./udacityproject1 s3://${BUCKET_NAME}             
 workflows:
   # Name the workflow "welcome"
   Deploying to s3 bucket:
