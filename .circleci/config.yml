@@ -9,7 +9,7 @@ jobs:
   deploy to s3: 
     docker:
       - image: amazon/aws-cli:2.7.17
-        entrypoint: [""]
+        command: ""
     steps:
       - checkout
        # You can get this ID in the section where you registered the SSH K
