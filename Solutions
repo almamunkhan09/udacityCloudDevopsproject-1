@@ -22,7 +22,7 @@ Cloud Front:
 2. Bucket policy is created by OAI
 3. redirect HTTP requests to HTTPS
 
-
+output link https://d1bzicvpv9s8zw.cloudfront.net
 
 
 
