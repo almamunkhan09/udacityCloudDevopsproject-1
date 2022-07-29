@@ -22,10 +22,8 @@ Cloud Front:
 2. Bucket policy is created by OAI
 3. redirect HTTP requests to HTTPS
 
-https://d1dun9w7j7ukwi.cloudfront.net [ It may varies]
 
-Route 53:
 
-1. Configure a hosted zone and linked it with cloud front
+
 
 
