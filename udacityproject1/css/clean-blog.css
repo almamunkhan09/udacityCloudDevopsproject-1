@@ -45,7 +45,7 @@ blockquote {
 }
 
 .section-heading {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 700;
   margin-top: 60px;
 }
@@ -62,7 +62,7 @@ blockquote {
 }
 
 ::selection {
-  color: #fff;
+  color: #f6f4f4;
   background: #0085A1;
   text-shadow: none;
 }
@@ -111,17 +111,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
-    color: #fff;
+    color: rgb(14, 13, 13);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #fff;
+    color: rgb(6, 6, 6);
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(8, 8, 8, 0.8);
   }
 }
 
@@ -187,7 +187,7 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: rgb(6, 6, 6);
 }
 
 @media only screen and (min-width: 768px) {
