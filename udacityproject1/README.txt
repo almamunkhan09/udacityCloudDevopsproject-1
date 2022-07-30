@@ -35,5 +35,6 @@ Cloud Front:
 3. redirect HTTP requests to HTTPS
 
 output link https://d1bzicvpv9s8zw.cloudfront.net
+static-website endpoint http://udacityproject-1byalmamun.s3-website-us-east-1.amazonaws.com
 
 
