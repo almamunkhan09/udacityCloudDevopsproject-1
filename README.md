@@ -31,7 +31,7 @@ Create,configure and deploy contentsto S3 bucket:
 Cloud Front:
 
 1. Configure a new distribution and linked it with existing bucket. 
-2. Bucket policy is created by OAI
+2. Bucket policy is made public from the S3 service.
 3. redirect HTTP requests to HTTPS
 
 output link https://d1bzicvpv9s8zw.cloudfront.net
